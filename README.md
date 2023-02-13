@@ -14,16 +14,12 @@ Add this plugin to config file:
 
 ```js
 plugins: {
-    allure: {
-	    require: '@codeceptjs/allure-plugin'
-	    "enabled": true,
-    }
+  allure: {
+    enabled: true,
+    require: '@codeceptjs/allure-plugin',
+  }
 }
 ```
-
-Run tests with allure plugin enabled:
-
-    npx codeceptjs run --plugins allure
 
 By default, allure reports are saved to `output` directory.
 Launch Allure server and see the report like on a screenshot above:
