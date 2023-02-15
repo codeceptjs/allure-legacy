@@ -1,6 +1,9 @@
 # Allure Plugin
 
-Allure plugin for CodeceptJS
+Allure plugin for CodeceptJS via allure-commons v1
+
+> **Warning**
+>  This plugin was deprecated in CodeceptJS as to allure-commons v1 was not maintained anymore. Documentation and source code was moved into this repository. At this moment we don't plan to migrate it to Allure v2 but community can create their own implementations 
 
 Enables Allure reporter.
 
@@ -16,7 +19,7 @@ Add this plugin to config file:
 plugins: {
   allure: {
     enabled: true,
-    require: '@codeceptjs/allure-plugin',
+    require: '@codeceptjs/allure-legacy',
   }
 }
 ```

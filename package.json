@@ -1,5 +1,5 @@
 {
-  "name": "@codeceptjs/allure-plugin",
+  "name": "@codeceptjs/allure-legacy",
   "version": "1.0.0",
   "description": "Allure plugin for CodeceptJS",
   "main": "index.js",
